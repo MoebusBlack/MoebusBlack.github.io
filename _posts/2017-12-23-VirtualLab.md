@@ -16,13 +16,13 @@ One disadvantage over using an ISO would probably be that the size of the disk h
 # Virtualbox Networking
 In Virtualbox, there are a few types of networking.
 The following table from [Chapter 6 of VirtualBox Manual] is the most useful.
-||VM ↔ Host	|VM1 ↔ VM2	|VM → Internet|	VM ← Internet|
-|--|--|--|--|--|
-|Host-only|	+	|+	|–	|–|
-|Internal|	–	|+	|–	|–|
-|Bridged|	+	|+	|+	|+|
-|NAT	|–	|–	|+	|Port forwarding|
-|NAT Network	|–	|+	|+	|Port forwarding|
+| |VM ↔ Host	|VM1 ↔ VM2	|VM → Internet|	VM ← Internet|
+|-----|-----|-----|----|-----|
+| Host-only |	+	| +	| –	| – |
+| Internal |	–	| +	| –	| – |
+| Bridged |	+	| +	| +	| +|
+| NAT	| –	| –	| +	| Port forwarding |
+| NAT Network	|–	| +	| +	| Port forwarding |
 
 ## NAT networking
 This is the default configuration.
