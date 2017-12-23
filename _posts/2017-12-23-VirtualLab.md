@@ -18,6 +18,7 @@ In Virtualbox, there are a few types of networking.
 The following table from [Chapter 6 of VirtualBox Manual] is the most useful.
 
 ![Vbox Table]
+![Vbox Diagram]
 
 ## NAT networking
 This is the default configuration.
@@ -60,3 +61,4 @@ In short, DHCP server is the server that assigns IP address dynamically to compu
 [kali Website]:https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/
 [Chapter 6 of VirtualBox Manual]:https://www.virtualbox.org/manual/ch06.html
 [Vbox Table]:{{ '/assets/VboxTable.png' | absolute_url }}
+[Vbox Diagram]:{{ '/assets/VboxDiagram.png' | absolute_url }}
