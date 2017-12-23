@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: MoebusBlack's Journey into the Dark Arts
+email: MoebusBlack@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+	Learn about the dark side of computers
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://moebusblack.github.io/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -29,14 +27,14 @@ markdown: kramdown
 # theme: jekyll-hilmi
 
 # Theme setting
-author: Manoj Gautam
-nick:   Manoj
-profession: "Software Engineer"
-tagline: "I develop web apps with django and javascript"
-timezone: Asia/Kathmandu
+author: MoebusBlack
+nick:   MBk
+profession: "Apprentice"
+tagline: "I learn so I am alive."
+timezone: USA
 baseurl: ""
 feed: true
 
 # Social links
-linkedin: openpy
-github: nix1947
+#linkedin: openpy
+github: moebusblack
