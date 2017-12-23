@@ -17,15 +17,7 @@ One disadvantage over using an ISO would probably be that the size of the disk h
 In Virtualbox, there are a few types of networking.
 The following table from [Chapter 6 of VirtualBox Manual] is the most useful.
 
-|-----------------+------------+-----------------+----------------+-----------------|
-|                 | VM ↔ Host  | VM1 ↔ VM2       | VM → Internet  | VM ← Internet   |
-|-----------------|------------|-----------------|----------------|-----------------|
-| Host-only       |	+          | +               | –              | –               |
-| Internal        |	–          | +               | –              | –               |
-| Bridged         |	+          | +               | +              | +               |
-| NAT	          | –          | –               | +              | Port forwarding |
-| NAT Network	  | –          | +               | +              | Port forwarding |
-|-----------------+------------+-----------------+----------------+-----------------|
+![Vbox Table]
 
 ## NAT networking
 This is the default configuration.
@@ -67,3 +59,4 @@ In short, DHCP server is the server that assigns IP address dynamically to compu
 [Virtual Box]:https://www.virtualbox.org/wiki/Downloads
 [kali Website]:https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/
 [Chapter 6 of VirtualBox Manual]:https://www.virtualbox.org/manual/ch06.html
+[Vbox Table]:{{ '/assets/VboxTable.png' | absolute_url }}
