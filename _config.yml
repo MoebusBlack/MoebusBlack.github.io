@@ -16,7 +16,7 @@
 title: MoebusBlack's Journey into the Dark Arts
 email: MoebusBlack@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
-	Learn about the dark side of computers
+ Learn about the dark side of computers
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://moebusblack.github.io/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
